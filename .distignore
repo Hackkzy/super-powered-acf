@@ -1,0 +1,26 @@
+# Ignore itself
+.distignore
+
+# Development & Configuration Files
+.nvmrc
+.gitignore
+.editorconfig
+composer.json
+composer.lock
+Gruntfile.js
+package.json
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+bun.lock
+pnpm-lock.yaml
+webpack.config.js
+
+# Ignore Git-related files
+.git/
+.github/
+
+# Ignore source files & development environments
+src/
+node_modules/
+_playground/

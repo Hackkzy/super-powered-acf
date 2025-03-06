@@ -1,0 +1,177 @@
+# Copyright (C) 2025 Hackkzy
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Super Powered ACF 1.0.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/super-powered-acf\n"
+"POT-Creation-Date: 2025-03-06 15:28:33+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: app/admin/class-sup-acf-admin.php:71
+msgid "Generate ACF Fields with AI"
+msgstr ""
+
+#: app/admin/class-sup-acf-admin.php:72
+msgid "Enter your prompt:"
+msgstr ""
+
+#: app/admin/class-sup-acf-admin.php:73
+msgid "Describe the fields you want to generate..."
+msgstr ""
+
+#: app/admin/class-sup-acf-admin.php:74
+msgid ""
+"Describe the fields you want to create. Be as specific as possible about "
+"field types and requirements."
+msgstr ""
+
+#: app/admin/class-sup-acf-admin.php:75
+msgid ""
+"Note: AI-generated results may vary. You might need to try different "
+"prompts or regenerate fields to get the desired outcome."
+msgstr ""
+
+#: app/admin/class-sup-acf-admin.php:76
+msgid "Generate Fields"
+msgstr ""
+
+#: app/admin/class-sup-acf-admin.php:77
+msgid "Generating Fields..."
+msgstr ""
+
+#: app/admin/class-sup-acf-admin.php:78
+msgid "Generate Fields with AI"
+msgstr ""
+
+#: app/admin/class-sup-acf-admin.php:79
+msgid "Please enter a prompt to generate fields."
+msgstr ""
+
+#: app/admin/class-sup-acf-admin.php:80
+msgid "No fields were generated. Please try a different prompt."
+msgstr ""
+
+#: app/admin/class-sup-acf-admin.php:81
+msgid "An error occurred while generating fields. Please try again."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Super Powered ACF"
+msgstr ""
+
+#: app/admin/class-sup-acf-settings.php:92
+msgid "Save Settings"
+msgstr ""
+
+#: app/admin/class-sup-acf-settings.php:121
+msgid "General Settings"
+msgstr ""
+
+#: app/admin/class-sup-acf-settings.php:129
+msgid "Gemini API Key"
+msgstr ""
+
+#: app/admin/class-sup-acf-settings.php:130
+msgid "Enter your Gemini API key."
+msgstr ""
+
+#: app/api/v1/class-sup-acf-generate-fields.php:60
+msgid "Prompt for AI to generate ACF fields."
+msgstr ""
+
+#: app/api/v1/class-sup-acf-generate-fields.php:81
+msgid ""
+"Prompt is required. Please provide a valid prompt for AI to generate ACF "
+"fields."
+msgstr ""
+
+#: app/api/v1/class-sup-acf-generate-fields.php:124
+msgid "Gemini API key is missing."
+msgstr ""
+
+#: app/api/v1/class-sup-acf-generate-fields.php:177
+#. translators: %s: Error message
+msgid "API request failed: %s"
+msgstr ""
+
+#: app/api/v1/class-sup-acf-generate-fields.php:189
+#. translators: %d: HTTP response code
+msgid "API request failed with status code: %d"
+msgstr ""
+
+#: app/api/v1/class-sup-acf-generate-fields.php:201
+msgid "Invalid JSON response from API."
+msgstr ""
+
+#: app/api/v1/class-sup-acf-generate-fields.php:208
+msgid "Empty response from API."
+msgstr ""
+
+#: app/api/v1/class-sup-acf-generate-fields.php:220
+msgid ""
+"Invalid JSON response from AI. Please ensure your prompt is related to "
+"generating ACF fields."
+msgstr ""
+
+#: app/api/v1/class-sup-acf-generate-fields.php:228
+msgid "Invalid ACF field structure in AI response. No fields were generated."
+msgstr ""
+
+#: app/api/v1/class-sup-acf-generate-fields.php:238
+#. translators: %s: Error message from AI
+msgid "AI Response Error: %s"
+msgstr ""
+
+#: super-powered-acf.php:88
+msgid "Super Powered ACF:"
+msgstr ""
+
+#: super-powered-acf.php:89
+msgid "This plugin requires"
+msgstr ""
+
+#: super-powered-acf.php:91
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: super-powered-acf.php:92
+msgid "or"
+msgstr ""
+
+#: super-powered-acf.php:94
+msgid "Advanced Custom Fields Pro"
+msgstr ""
+
+#: super-powered-acf.php:95
+msgid "Please install and activate ACF."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A powerful AI based Field generator for ACF."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Hackkzy"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/Hackkzy"
+msgstr ""

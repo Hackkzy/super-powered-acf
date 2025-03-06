@@ -1,0 +1,22 @@
+{
+  "name": "super-powered-acf",
+  "version": "1.0.0",
+  "main": "gruntfile.js",
+  "scripts": {
+    "start": "grunt default",
+    "readme": "grunt readme",
+    "i18n": "grunt i18n",
+    "minify": "grunt minify"
+  },
+  "author": "Hackkzy",
+  "dependencies": {
+    "grunt": "^1.3.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-wp-i18n": "^1.0.3",
+    "grunt-wp-readme-to-markdown": "^2.1.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-uglify": "^5.0.0"
+  }
+}

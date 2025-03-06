@@ -1,0 +1,25 @@
+# Ignore node modules and dependencies
+node_modules/
+vendor/
+
+# Ignore build and compiled files
+dist/
+build/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor settings
+.editorconfig
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore temporary and backup files
+*.bak
+*.tmp
+*.log
+*.cache
+*.zip
