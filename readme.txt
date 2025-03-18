@@ -30,6 +30,22 @@ Instead of manually configuring fields, just **describe what you need**, and AI 
 4. AI generates the fields automatically
 5. Review, adjust if needed, and save 🎉
 
+== External Services ==
+This plugin connects to Google's Gemini API to generate ACF fields based on user prompts.
+
+- **What data is sent?** The user’s entered prompt is sent to the API to generate relevant fields.
+- **When is data sent?** Only when the "Generate with AI" button is clicked.
+- **Where is data sent?** Requests are sent to Google’s Gemini API endpoint.
+- **Privacy Policy:** [Google Privacy Policy](https://policies.google.com/privacy)
+- **Terms of Service:** [Google AI Terms](https://policies.google.com/terms)
+
+No personal data, user credentials, or sensitive information is sent.
+
+== Git Repository ==
+You can find the source code, report issues, and contribute at:
+
+📌 GitHub Repository: [https://github.com/Hackkzy/super-powered-acf](https://github.com/Hackkzy/super-powered-acf)
+
 == Installation ==
 1. Upload the plugin files to the `/wp-content/plugins/super-powered-acf` directory, or install the plugin through the WordPress plugins screen directly
 2. Activate the plugin through the "Plugins" screen in WordPress
