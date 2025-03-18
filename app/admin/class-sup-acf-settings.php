@@ -170,7 +170,7 @@ if ( ! class_exists( 'Sup_ACF_Settings' ) ) {
 							$selected_val    = ! empty( $options[ $field['id'] ] ) ? $options[ $field['id'] ] : '';
 							$select_options .= sprintf(
 								'<option value="%s" %s>%s</option>',
-								$key,
+								esc_attr( $key ),
 								selected( $selected_val, $key, false ),
 								esc_html( $label )
 							);
@@ -199,7 +199,7 @@ if ( ! class_exists( 'Sup_ACF_Settings' ) ) {
 			$description = ! empty( $field['description'] ) ? $field['description'] : '';
 
 			if ( ! empty( $description ) ) {
-				printf( '<p class="description">%s </p>', $description ); //phpcs:ignore
+				printf( '<p class="description">%s </p>', esc_html( $description ) );
 			}
 		}
 
